@@ -4,51 +4,49 @@ ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip);
 
 import sourceData from "../data/data.json";
 import './style.css'
-function TimeStatistics() {
-    return (
-        <div className="time-statistics">
-            <Bar className='time-statistics-bar'
-                data={{ 
-                    labels: sourceData.map((data) => data.label),
-                    datasets: [
-                        {
-                            label: 'Sales today',
-                            data: sourceData.map((data) => data.totalSleepTime),
-                            backgroundColor: '#9E00FF',
-                            borderColor: '#63E6BE',
-                        }
-                    ]
-                }}
-                options={{
-                    plugins: {
-                        legend: {
-                            display: false   
-                        },
-                        tooltip: {
-                            bodyFont: { size: 13 }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            ticks: {
-                                font: {
-                                    size: 14
-                                }
-                            }
-                        },
-                        y: {
-                            beginAtZero: true,
-                            ticks: {
-                                font: {
-                                    size: 15
-                                }
-                            }
-                        }
-                    }
-                }}
-            />
-        </div>
-    )
+
+const data={
+    labels: sourceData.map((data) => data.label),
+    datasets: [
+        {
+            label: 'Sales today',
+            data: sourceData.map((data) => data.totalSales),
+            backgroundColor: '#9E00FF',
+            borderColor: '#63E6BE',
+        }
+    ]
 }
 
-export default TimeStatistics;
+const options = {
+    plugins: {
+        legend: {
+            display: false   
+        },
+        tooltip: {
+            bodyFont: { size: 13 }
+        }
+    },
+    scales: {
+        x: {
+            ticks: {
+                font: {
+                    size: 14
+                }
+            }
+        },
+        y: {
+            beginAtZero: true,
+            ticks: {
+                font: {
+                    size: 15
+                }
+            }
+        }
+    }
+}
+
+function MainStatistics() {
+    return <Bar className='time-statistics-bar' data={data} options={options} />
+}
+
+export default MainStatistics;

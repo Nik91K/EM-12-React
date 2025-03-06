@@ -1,9 +1,11 @@
-import TimeStatistics from './mainChart/mainChart'
+import MainStatistics from './mainChart/mainChart'
+import CircularStatistic from './circularStatistics/circularStatistics'
 
 function DataBlock() {
     return(
         <>
-            <TimeStatistics />
+            <MainStatistics />
+            <CircularStatistic />
         </>
     )
 }

@@ -4,7 +4,7 @@ import DataBlock from './chartjs/statistics'
 function App() {
 
   return (
-    <div>
+    <div className='main-div'>
       <DataBlock />
     </div>
   )
