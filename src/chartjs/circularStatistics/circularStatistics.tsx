@@ -3,6 +3,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 import sourceData from "../data/data.json";
+import './style.css'
 
 function handleLeave(legend: any) {
     legend.chart.data.datasets[0].backgroundColor.forEach((color: string, index: number, colors: string[]) => {
@@ -35,7 +36,7 @@ const options = {
 };
 
 function CircularStatistic() {
-    return <Pie data={data} options={options} />;
+    return <Pie data={data} options={options} className='CircularStatistic'/>;
 }
 
 export default CircularStatistic;
