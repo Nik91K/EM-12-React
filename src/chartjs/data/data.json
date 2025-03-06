@@ -1,0 +1,8 @@
+[
+  { "label": "Day 1", "totalSleepTime": 10 },
+  { "label": "Day 2", "totalSleepTime": 4 },
+  { "label": "Day 3", "totalSleepTime": 8 },
+  { "label": "Day 4", "totalSleepTime": 3 },
+  { "label": "Day 5", "totalSleepTime": 6 },
+  { "label": "Day 6", "totalSleepTime": 9 }
+]

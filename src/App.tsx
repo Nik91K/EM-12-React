@@ -1,14 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import DataBlock from './chartjs/statistics'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-      </div>
-    </>
+    <div>
+      <DataBlock />
+    </div>
   )
 }
 
