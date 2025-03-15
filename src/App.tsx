@@ -1,12 +1,17 @@
+import { useState } from 'react'
 import './App.css'
-import DataBlock from './chartjs/statistics'
+import TextContainer from './components/textContainer/index'
+import {textArray} from './fixture/textContainer'
 
 function App() {
-
   return (
-    <div className='main-div'>
-      <DataBlock />
-    </div>
+    <>
+      {
+        textArray.map((obj) => (
+          <TextContainer {...obj} />
+        ))
+      }
+    </>
   )
 }
 

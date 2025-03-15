@@ -1,0 +1,25 @@
+.time{
+    color: #ca3745;
+}
+
+.news-main{
+    display: flex;
+    width: 310px;
+    text-align: left;
+    color: black;
+    background: #d7d5d6;
+}
+
+.title{
+    margin-left: 10px;
+}
+
+.news-main.important {
+    background-color: rgb(164, 164, 164);
+    font-weight: 500;
+}
+
+.title-link{
+    text-decoration: none;
+    color: #000000;
+}
