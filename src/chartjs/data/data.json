@@ -1,8 +1,0 @@
-[
-  { "label": "Day 1", "totalSales": 10 },
-  { "label": "Day 2", "totalSales": 4 },
-  { "label": "Day 3", "totalSales": 8 },
-  { "label": "Day 4", "totalSales": 3 },
-  { "label": "Day 5", "totalSales": 6 },
-  { "label": "Day 6", "totalSales": 9 }
-]

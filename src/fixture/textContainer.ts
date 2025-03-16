@@ -1,4 +1,4 @@
-import {textComponentType} from '../types/mainPage'
+import { textComponentType } from '../types/mainPage'
 
 export const textArray: textComponentType[] = [
     {

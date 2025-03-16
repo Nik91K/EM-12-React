@@ -1,0 +1,36 @@
+.react-main{
+    border: 1px solid #7886a2;
+    border-radius: 10px;
+    width: 850px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.react-main:hover{
+    background-color: #2a2f39d0;
+}
+
+.react-main-a{
+    color: #fff;
+    text-align: left;
+}
+
+.react-header{
+    font-size: 28px;
+}
+
+.date{
+    padding: 5px 0;
+    color: #7886a2;
+}
+
+.react-link{
+    display: block;
+    margin-top: 15px;
+    color: #58c4dc;
+}
+
+.text-hover:hover{
+    text-decoration-line: underline;
+}
