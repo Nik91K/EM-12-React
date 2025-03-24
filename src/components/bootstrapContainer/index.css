@@ -1,0 +1,12 @@
+.bootstrap-main-div{
+    width: 600px;
+    padding: 24px;
+    color: #DEE2E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.code-example{
+    
+}

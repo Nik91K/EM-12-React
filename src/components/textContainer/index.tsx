@@ -6,7 +6,7 @@ const TextContainer = (props:textComponentType) => {
         <>
             <div className={`news-main ${props.isImportant ? 'important' : ''}`}>
                 <div className='time'>
-                    {props.time}
+                    <p>{props.time}</p>
                 </div>
                 <div className='title'>
                     <a href={props.link} className='title-link' target="_blank">

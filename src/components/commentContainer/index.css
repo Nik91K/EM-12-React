@@ -1,0 +1,22 @@
+.comment{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.comment-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-date{
+    margin-left: 5px;
+}
+
+.comment-aswer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
